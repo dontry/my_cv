@@ -1,0 +1,40 @@
+body {
+    width: 210mm;
+    height: 297mm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    page-break-after: always;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.container {
+    display: grid;
+    margin-top: 1.5rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    border: 1px solid saddlebrown
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.contact.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skill-set .wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}

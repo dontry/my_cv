@@ -1,3 +1,13 @@
+html {
+  font-size: 18px;
+}
+
+@media print {
+  html {
+    font-size: 14px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,10 +19,7 @@
 @font-face {
   font-family: "iconfont";
   src: url("../src/font/iconfont.eot");
-  src: url("../src/font/iconfont.eot?#iefix") format("embedded-opentype"),
-    url("../src/font/iconfont.woff") format("woff"),
-    url("../src/font/iconfont.ttf") format("truetype"),
-    url("../src/font/iconfont.svg#iconfont") format("svg");
+  src: url("../src/font/iconfont.eot?#iefix") format("embedded-opentype"), url("../src/font/iconfont.woff") format("woff"), url("../src/font/iconfont.ttf") format("truetype"), url("../src/font/iconfont.svg#iconfont") format("svg");
 }
 
 .iconfont {
@@ -289,7 +296,7 @@ section li .item-desc {
 }
 
 section li .item-desc a {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .time {
