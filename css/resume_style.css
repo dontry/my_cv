@@ -36,7 +36,7 @@ a {
 }
 
 section {
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     page-break-after: always;
 }
 
@@ -64,6 +64,8 @@ p {
 .title {
     text-transform: uppercase;
 }
+
+
 
 .time {
     font-size: 0.85rem;
@@ -101,5 +103,21 @@ p {
 .projects li,
 .education li,
 .referee li {
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.projects .desc-item {
+    font-size: 0.9em;
+}
+
+.projects .task-list {
+    margin-top: 4px;
+}
+
+.projects .task-list li {
+    list-style: disc;
+    margin-left: 1rem;
+    margin-bottom: 0.2em;
+    font-size: 0.9em;
+    line-height: 1.2;
 }
