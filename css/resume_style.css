@@ -8,7 +8,7 @@ body {
 * {
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'Raleway', sans-serif; */
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 div {
@@ -40,7 +40,8 @@ section {
     page-break-after: always;
 }
 
-h4, h5 {
+h4,
+h5 {
     font-weight: 600;
 }
 
@@ -65,8 +66,6 @@ p {
     text-transform: uppercase;
 }
 
-
-
 .time {
     font-size: 0.85rem;
     float: right;
@@ -88,33 +87,45 @@ p {
 
 .skills .wrapper {
     display: grid;
-    grid-template-columns:  2fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    column-gap: 1rem;
 }
 
 .skills ul {
     font-size: 0.85rem;
 }
 
-.skills .front-end ul {
-    column-count: 2;
+.skills li {
+    margin-bottom: 0.5rem;
 }
 
-.work-experience li,
-.projects li,
-.education li,
-.referee li {
-    margin-bottom: 0.75rem;
+.skills li p {
+    font-size: 0.75rem;
+    color: rgb(77, 75, 75);
 }
 
-.projects .desc-item {
+.skills .front-end div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.work-experience>ul>li,
+.education>ul>li,
+.referee>ul>li {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.desc-item {
     font-size: 0.9em;
 }
 
-.projects .task-list {
-    margin-top: 4px;
+.task-list {
+    margin-top: 0.5em;
+    padding-left: 2em;
 }
 
-.projects .task-list li {
+.task-list li {
     list-style: disc;
     margin-left: 1rem;
     margin-bottom: 0.2em;
